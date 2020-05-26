@@ -1,0 +1,18 @@
+.alinear{
+    display: flex;
+    justify-content: center;
+   /* justify-content: space-around;*/
+}
+
+ul{
+    list-style: none;
+
+}
+li a{
+    text-decoration: none;
+    padding:0 8px;
+    border-right: 1px solid;
+}
+.eliminar-linea{
+    border-right: none;
+}
