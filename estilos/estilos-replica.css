@@ -9,10 +9,18 @@ ul{
 
 }
 li a{
+    color: floralwhite;
     text-decoration: none;
     padding:0 8px;
-    border-right: 1px solid;
+    border-right: 1px solid floralwhite;
 }
 .eliminar-linea{
     border-right: none;
 }
+.color-fondo-del-menu{
+    background-image:linear-gradient(black,gray)
+}
+ul li{
+    padding: 10px 0;
+}
+
