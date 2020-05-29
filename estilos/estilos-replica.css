@@ -23,4 +23,25 @@ li a{
 ul li{
     padding: 10px 0;
 }
-
+.text{
+color: floralwhite;
+}
+.icono{
+    color: seashell;
+padding:0 20px;
+}
+@media(min-width:1000px){
+    span.icono{
+        display: none;}
+        span.text{
+            display: inline-block;
+        }
+}
+@media(max-width:1000px){
+    span.icono{
+        display: inline-block;
+    }
+    span.text{
+        display: none;
+    }
+}
