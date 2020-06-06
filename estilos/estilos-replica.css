@@ -1,8 +1,4 @@
-.alinear{
-    display: flex;
-    justify-content: center;
-   /* justify-content: space-around;*/
-}
+
 
 ul{
     list-style: none;
@@ -34,8 +30,12 @@ padding:0 20px;
     span.icono{
         display: none;}
         span.text{
-            display: inline-block;
-        }
+            display: inline-block;}
+            .alinear{
+    display: flex;
+    justify-content: center;
+   /* justify-content: space-around;*/
+}
 }
 @media(max-width:1000px){
     span.icono{
@@ -44,4 +44,8 @@ padding:0 20px;
     span.text{
         display: none;
     }
+    .alinear{
+    display: block;
+}
+
 }
