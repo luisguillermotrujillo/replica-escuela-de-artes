@@ -89,3 +89,14 @@ ul li {
     }
 
 }
+/*boton del menu*/
+.boton-menu{
+    width: 23px;
+    height: 5px;
+    background-color: black;
+    margin: 2px 0;
+}
+    .centrar-boton-menu{
+        padding-top: 40px;
+        padding-left :20px ;
+    }
