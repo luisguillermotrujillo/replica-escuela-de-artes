@@ -19,7 +19,7 @@ li a {
 }
 
 .color-fondo-del-menu {
-    background-image: linear-gradient(black, gray)
+  background-color: rgb(248, 239, 225);
 }
 
 ul li {
@@ -99,4 +99,14 @@ ul li {
     .centrar-boton-menu{
         padding-top: 40px;
         padding-left :20px ;
+    }
+    .tipo-de-letra-titulo{
+        font-family: 'Italiana', serif;
+    }
+    .tipo-de-letra-menu{
+        font-family: 'Tenali Ramakrishna', sans-serif;
+    }
+    li a{
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        color: black;
     }
