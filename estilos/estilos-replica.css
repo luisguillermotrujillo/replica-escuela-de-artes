@@ -27,7 +27,7 @@ ul li {
 }
 
 .text {
-    color: floralwhite;
+    color: black;
 }
 
 .icono {
@@ -46,7 +46,9 @@ ul li {
 
     .alinear {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
+        /*justify-content: center;*/
+        align-items: flex-start;
         /* justify-content: space-around;*/
     }
 }
@@ -97,8 +99,10 @@ ul li {
     margin: 2px 0;
 }
     .centrar-boton-menu{
-        padding-top: 40px;
-        padding-left :20px ;
+        /*padding-top: 10px;*/
+        padding-left :0px ;
+        padding-bottom: 40px;
+        margin-bottom: 40px;
     }
     .tipo-de-letra-titulo{
         font-family: 'Italiana', serif;
@@ -110,3 +114,4 @@ ul li {
         font-family: 'Tenali Ramakrishna', sans-serif;
         color: black;
     }
+
