@@ -52,6 +52,7 @@ div.boton-menu{
 .alinear-3{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
     .alinear {
         display: flex;
