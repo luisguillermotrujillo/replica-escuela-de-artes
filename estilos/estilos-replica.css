@@ -39,11 +39,20 @@ ul li {
     span.icono {
         display: none;
     }
+    ul.alinear-1{
+        display: none;
+    }
 
     span.text {
         display: inline-block;
     }
-
+div.boton-menu{
+    display: none;
+}
+.alinear-3{
+    display: flex;
+    justify-content: space-between;
+}
     .alinear {
         display: flex;
         justify-content: space-around;
