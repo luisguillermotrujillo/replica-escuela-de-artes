@@ -8,10 +8,11 @@ function closeNav() {
 }
 function quitarBotom(mediaQ) {
     if (mediaQ.matches) {
-        let borrarBoton = document.getElementById('borrarBoton')
-        borrarBoton.remove()
+        let botonColapsado = document.getElementById('boton-menu-colapsado')
+        botonColapsado.remove()
     }
 }
+
 let mediaQ = window.matchMedia('(min-width:1000px)')
 quitarBotom(mediaQ)
-mediaQ.addEventListener('quitarBotom')
+mediaQ.addListener(quitarBotom)
