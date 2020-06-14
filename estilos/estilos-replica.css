@@ -79,11 +79,16 @@ div.boton-menu{
         /* justify-content: space-around;*/
     }
 }
-
-
-
- @media(max-width :1000px) and (min-width:640px){
-      .alinear {
+@media(max-width :1000px) and (min-width:640px){
+     .alinear-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+     div.centrar-boton-menu{
+    display: none;
+}
+.alinear {
         display: flex;
         justify-content: space-around;
         /*justify-content: center;*/
