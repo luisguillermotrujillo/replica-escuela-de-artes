@@ -26,11 +26,12 @@ ul {
 }
 
 @media(min-width:1000px) {
-    
-.text {
+        .text {
     color: black;
     font-size: 21px;
 }
+    
+
     span.text{
         padding-left: 80px;
     }
@@ -44,10 +45,10 @@ ul {
     li a {
         
         font-size: 21px;
-    color: floralwhite;
+    color: rgb(143, 115, 60);
     text-decoration: none;
     padding:0 30px;
-    border-right: 1px solid floralwhite;
+    border-right: 1px solid rgb(175, 152, 105);
 }
    
     div.centrar-boton-menu{
@@ -80,6 +81,17 @@ div.boton-menu{
     }
 }
 @media(max-width :1000px) and (min-width:640px){
+    .text {
+    color: black;
+    font-size: 16px;
+}
+ li a {
+    font-size: 16px;
+    color: rgb(143, 115, 60);
+    text-decoration: none;
+    padding:0 20px;
+    /*border-right: 1px solid rgb(175, 152, 105);*/
+}
      .alinear-3{
     display: flex;
     justify-content: space-around;
@@ -97,6 +109,19 @@ div.boton-menu{
     }
  }
 @media(max-width:640px){
+        .alinear-3{
+    display: flex;
+    justify-content: space-around;
+    /*align-items: stretch;*/
+    margin: 30px 0;
+}
+     li a {
+    font-size: 16px;
+    color: rgb(143, 115, 60);
+    text-decoration: none;
+    padding:20px 0;
+    /*border-right: 1px solid rgb(175, 152, 105);*/
+}
     span.icono {
         display: inline-block;
     }
@@ -109,18 +134,11 @@ div.boton-menu{
         width: 100%;
         margin-top: 30px;
     }
-    .alinear-2{
+    /*.alinear-2{
         display: flex;
         justify-content: space-around;
-    }
-.alinear {
-        display: block;
-        position: relative;
-        /* top: 25%;*/
-        width: 100%;
-        /* text-align: center;*/
-        margin-top: 30px;
-    }
+    }*/
+
 
     .overlay {
         height: 0;
