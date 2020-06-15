@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <nav id="menu" class="color-fondo-del-menu overlay alinear-2 alinear-3">
+    <nav id="menu" class="color-fondo-del-menu alinear-2 alinear-3">
         <span class=" text tipo-de-letra-menu">
             LOGO
         </span>
@@ -42,34 +42,32 @@
 
 
         </ul>
-        <div id="boton-menu-colapsado" class="centrar-boton-menu" onclick="openNav()">
-
-            <div class="boton-menu"></div>
-            <div class="boton-menu"></div>
-            <div class="boton-menu"></div>
+        <div class="centrar-boton-menu">
+            <div id="boton-menu-colapsado" onclick="openNav()">
+                <div class="boton-menu"></div>
+                <div class="boton-menu"></div>
+                <div class="boton-menu"></div>
+            </div>
             <span>
-                <ul class="alinear-1">
+                <ul class="overlay">
 
-                    <li>
-                        <a href="#" onclick="closeNav()">
-                            ABOUT
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            TEMPLATES
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            BLOG
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            CONTACT
-                        </a>
-                    </li>
+
+                    <a href="#" onclick="closeNav()">
+                        ABOUT
+                    </a>
+
+
+                    <a href="#" onclick="closeNav()">
+                        TEMPLATES
+                    </a>
+
+                    <a href="#" onclick="closeNav()">
+                        BLOG
+                    </a>
+
+                    <a href="#" onclick="closeNav()">
+                        CONTACT
+                    </a>
 
 
                 </ul>
