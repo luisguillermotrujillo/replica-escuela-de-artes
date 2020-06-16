@@ -1,10 +1,13 @@
 function openNav() {
 
-    document.getElementById("menu").style.height = "57%";
+    document.getElementById("bloque").style.display = 'block';
+    document.getElementById('bloque').style.transition = '3s'
+    //document.getElementById('boton').style.paddingLeft = '20px'
 }
 
 function closeNav() {
-    document.getElementById("menu").style.height = "0%";
+    document.getElementById("bloque").style.display = 'none';
+    document.getElementById('bloque').style.transition = '3s'
 }
 /*function quitarBotom(mediaQ) {
     if (mediaQ.matches) {
