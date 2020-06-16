@@ -97,6 +97,12 @@
 }
  }
 @media(max-width:640px){
+    .block a{
+    display: block;
+    text-decoration: none;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    padding: 3px 0;
+    }
     ul{
      padding-inline-start: 0px;
      z-index: 1;
@@ -119,32 +125,7 @@
     ul.alinear{
     display: none;
 }
-   .overlay {
-    /*overflow-x: hidden;*/
-    height: 0;
-    width: 100%;
-    /*height: 100%;
-    width: 0;*/
-    position: fixed;
-    z-index: 1;
-    /*top: 0;*/
-    /*left: 0;*/
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.9);
-    overflow-x: hidden;
-    transition: 0.5s;
-}
-    .overlay a{
-    display: block;
-    font-size: 16px;
-    color: rgb(245, 244, 241);
-    text-decoration: none;
-    cursor: context-menu;
-    transition: 3s;
-}
-    .overlay a:hover{
-    color: blue;
-}
+
     .icono {
     color: black;
 }
