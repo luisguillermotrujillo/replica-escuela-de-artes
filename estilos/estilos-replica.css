@@ -18,6 +18,10 @@
     }
 
     @media(min-width:1000px) {
+        div.block{
+            display: none;
+
+        }
         .text {
             color: black;
             font-size: 21px;
@@ -25,6 +29,7 @@
 
         span.text {
             padding-left: 80px;
+           
         }
 
         ul {
@@ -81,6 +86,9 @@
     }
 
     @media(max-width :1000px) and (min-width:640px) {
+        div.centrar{
+            display: none;
+        }
         .text {
             color: black;
             font-size: 16px;
